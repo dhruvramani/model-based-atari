@@ -11,7 +11,7 @@ The code is written in [Tensorflow](http://tensorflow.org/), so get that if you 
 As compared to the original code, we just take the single frame as the input. This was done to efficiently generate rollouts and trajectories. We train the world model on observations of multiple agents exploring the same environment differently. This is done by acting randomly, however a policy can be used to generate the data by modiflying the function `generate_data` in `world_model.py`. The number of agents can be changed by changing `n_envs` in `config.py`. The next observation can be predicted easily by calling `EnvModel.imagine()`.
 
 # References
-[Original Tensor2Tensor code](https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/rl)
+[Original Tensor2Tensor code](https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/rl)<br>
 [I2A Code](https://github.com/gitlimlab/i2a-tf)
 
 I just saved around 3 days of your time. T2T's code-base is huuuuuge, and very hard to modify. Thank me! ~ and wipe my tears.
