@@ -14,4 +14,4 @@ As compared to the original code, we just take the single frame as the input. Th
 [Original Tensor2Tensor code](https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/rl)
 [I2A Code](https://github.com/gitlimlab/i2a-tf)
 
-Thank me! I just saved around 3 days of your time. T2T's code-base is huuuuuge, and very hard to modify. :heart:
+I just saved around 3 days of your time. T2T's code-base is huuuuuge, and very hard to modify. Thank me! ~ and wipe my tears.
